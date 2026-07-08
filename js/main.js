@@ -184,18 +184,28 @@
         return;
       }
 
-      // Simulate send
+      // Send using Fetch API for Netlify Forms
       const btn = form.querySelector('.btn-primary');
       const originalText = btn.textContent;
       btn.textContent = 'Sending...';
       btn.disabled = true;
 
-      setTimeout(() => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(new FormData(form)).toString()
+      })
+      .then(() => {
         showFormMessage('Message sent successfully! I\'ll get back to you soon.', 'success');
         form.reset();
         btn.textContent = originalText;
         btn.disabled = false;
-      }, 1500);
+      })
+      .catch(error => {
+        showFormMessage('Something went wrong. Please try again.', 'error');
+        btn.textContent = originalText;
+        btn.disabled = false;
+      });
     });
   }
 
