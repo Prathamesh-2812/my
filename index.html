@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Optimization -->
+  <title>Prathamesh Bhosale</title>
+  <meta name="description"
+    content="Looking for a world-class freelance web developer? I build high-performance, premium, and SEO-optimized web applications and custom websites that grow businesses.">
+  <meta name="keywords"
+    content="Freelance Developer, Full Stack Developer, Custom Web Apps, React Developer, Node.js, Next.js, Premium Websites">
+  <meta name="author" content="Prathamesh Bhosale">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prathameshbhosale.dev/">
+  <meta property="og:title" content="Prathamesh Bhosale — Premium Full-Stack Developer">
+  <meta property="og:description"
+    content="I build high-performance, premium, and SEO-optimized web applications and custom websites that grow businesses.">
+  <meta property="og:image" content="assets/images/project-portfolio.png">
+
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prathamesh Bhosale",
+    "jobTitle": "Full-Stack Developer",
+    "url": "https://prathameshbhosale.dev",
+    "sameAs": [
+      "https://github.com/Prathamesh-2812",
+      "https://www.linkedin.com/in/prathamesh-bhosale-5026a82b1"
+    ],
+    "description": "Professional Full-Stack Developer offering world-class custom web development and design solutions."
+  }
+  </script>
+</head>
+
+<body class="loading">
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Prathamesh Bhosale</div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Prathamesh <span>Bhosale</span></a>
+
+      <nav class="nav-links">
+        <a href="#hero" class="nav-link active">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/Prathamesh-2812" target="_blank" class="nav-social-icon magnetic" aria-label="GitHub">
+          <svg fill="currentColor" viewBox="0 0 24 24" width="18" height="18">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/prathamesh-bhosale-5026a82b1" target="_blank" class="nav-social-icon magnetic" aria-label="LinkedIn">
+          <svg fill="currentColor" viewBox="0 0 24 24" width="18" height="18">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#hero" class="nav-link">About</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#" class="btn btn-secondary" style="margin-top: 1rem;">Download Resume</a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal-left">
+          <h1 class="hero-title">Hi, I'm <span class="text-gradient">Prathamesh Bhosale</span></h1>
+          <p class="hero-subtitle">I build modern, responsive websites that are fast, user-friendly, and designed to
+            help businesses grow.</p>
+          <div class="hero-tagline"
+            style="margin-bottom: var(--space-md); font-weight: var(--fw-medium); color: var(--text-dark); font-size: var(--fs-small);">
+            Full-Stack Developer — Problem Solver
+          </div>
+          <div class="hero-tags" style="margin-bottom: var(--space-xl); display: flex; flex-wrap: wrap; gap: 0.25rem;">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Android</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary magnetic">See my work</a>
+            <a href="#contact" class="btn btn-secondary magnetic">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal-right">
+          <div class="hero-blob hero-blob-1"></div>
+          <div class="hero-blob hero-blob-2"></div>
+          <div class="hero-circular-image">
+            <img src="assets/images/about_photo.png" alt="Prathamesh Bhosale">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-grid" data-stagger>
+          <div class="education-card reveal">
+            <div class="education-header">
+              <div>
+                <h3 class="education-title">Master of Computer Applications (MCA)</h3>
+                <div class="education-institute">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                  </svg>
+                  D. Y Patil School of Engineering and Management Kolhapur
+                </div>
+              </div>
+              <span class="badge">August 2025 - June 2027</span>
+            </div>
+            <p class="education-desc">Pursuing advanced studies in software engineering, database architecture, and
+              full-stack development methodologies, preparing for leadership roles in technology.</p>
+          </div>
+
+          <div class="education-card reveal">
+            <div class="education-header">
+              <div>
+                <h3 class="education-title">Bachelor of Computer Applications (BCA)</h3>
+                <div class="education-institute">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                  </svg>
+                  Shivaji University Kolhapur
+                </div>
+              </div>
+              <span class="badge">August 2022 - June 2025</span>
+            </div>
+            <p class="education-desc">Built a robust foundation in programming, web technologies, and algorithms.
+              Developed practical skills through hands-on academic projects and comprehensive coding assignments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Services</h2>
+        </div>
+
+        <div class="services-grid" data-stagger>
+          <div class="service-card reveal">
+            <div class="service-icon">💻</div>
+            <h4>Frontend Development</h4>
+            <p>Coding pixel-perfect, highly responsive interfaces utilizing React and modern CSS.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">⚙️</div>
+            <h4>Backend Development</h4>
+            <p>Building secure, scalable Server APIs, Databases, and business logic using Node/Laravel.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">⚡</div>
+            <h4>Full Stack Development</h4>
+            <p>End-to-end web applications combining robust backend services with polished frontends.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">📊</div>
+            <h4>Admin Dashboard</h4>
+            <p>Creating highly functional analytics portals, data visualizations, and admin workflows.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🚀</div>
+            <h4>Landing Pages</h4>
+            <p>High-converting, performance-focused marketing pages built to drive signups or sales.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">⭐</div>
+            <h4>Portfolio Websites</h4>
+            <p>Personal and creative portfolios that showcase achievements and attract job offers.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">💼</div>
+            <h4>Business Websites</h4>
+            <p>Professional informational sites with modern layouts that establish business trust.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🛒</div>
+            <h4>E-commerce</h4>
+            <p>Scalable web stores with clean payment integrations and custom product listings.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🔧</div>
+            <h4>Website Maintenance</h4>
+            <p>Periodic codebase updates, bug fixes, hosting setups, and security checks.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">📈</div>
+            <h4>Performance Optimization</h4>
+            <p>Speeding up page load times to ensure higher Lighthouse scores and retention.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🔍</div>
+            <h4>SEO Optimization</h4>
+            <p>Structuring semantic markups, site speed, and meta tags to improve Google rankings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal">
+            <div class="project-card-image">
+              <img src="assets/images/project-dypsem-landing.png" alt="Landing Page For DYPSEM" width="400"
+                height="250">
+              <div class="project-card-overlay">
+                <a href="https://sem.dypatilunikop.org/index/" target="_blank"
+                  class="btn btn-primary btn-sm magnetic">Live Demo</a>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">DYPSEM Landing Page</h3>
+              <p class="project-card-desc">A highly optimized landing page designed specifically to generate leads and
+                boost admissions for the DYPSEM institution.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS3</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">SEO</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://sem.dypatilunikop.org/index/" target="_blank"
+                  class="btn btn-primary btn-sm magnetic">Visit Site</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card reveal">
+            <div class="project-card-image">
+              <img src="assets/images/project-portfolio.png" alt="Technologia Event Website" width="400" height="250">
+              <div class="project-card-overlay">
+                <a href="https://dypsem-technologia2026.netlify.app/" target="_blank"
+                  class="btn btn-primary btn-sm magnetic">Live Demo</a>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Technologia Event Website</h3>
+              <p class="project-card-desc">An engaging and dynamic promotional website for the Technologia 2026 college
+                event, featuring modern UI and smooth interactions.</p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Framer Motion</span>
+                <span class="project-tag">Netlify</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://dypsem-technologia2026.netlify.app/" target="_blank"
+                  class="btn btn-primary btn-sm magnetic">Visit Site</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card reveal">
+            <div class="project-card-image">
+              <img src="assets/images/project-college.png" alt="DYPSEM Official Website" width="400" height="250">
+              <div class="project-card-overlay">
+                <a href="#" class="btn btn-primary btn-sm magnetic">In Development</a>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">DYPSEM Official Website</h3>
+              <p class="project-card-desc">Currently working on a complete overhaul of the official DYPSEM university
+                website, focusing on scalability, accessibility, and premium design.</p>
+              <div class="project-tags">
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">Tailwind</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">Database</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-secondary btn-sm magnetic">Ongoing Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section id="why-choose" class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Why Choose Me</h2>
+        </div>
+
+        <div class="why-grid" data-stagger>
+          <div class="why-card reveal">
+            <div class="why-card-icon">⚡</div>
+            <h4>Fast Delivery</h4>
+            <p>Rigorous milestone planning to launch pages rapidly.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">🎨</div>
+            <h4>Modern Design</h4>
+            <p>Unique layouts inspired by award-winning visual templates.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">💻</div>
+            <h4>Clean Code</h4>
+            <p>Modular structures, self-documenting code, and zero technical debt.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">📱</div>
+            <h4>Responsive</h4>
+            <p>Tested across desktops, tablets, iPhones, and Android units.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">🔍</div>
+            <h4>SEO Friendly</h4>
+            <p>Proper schema markups, accessibility, meta details, and semantic tags.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">⚙️</div>
+            <h4>Scalable</h4>
+            <p>Ready to handle exponential user databases and load limits.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">💎</div>
+            <h4>Affordable</h4>
+            <p>Transparent quotes matching actual product milestones.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-icon">🛠️</div>
+            <h4>Long-term Support</h4>
+            <p>Reliable check-ins and maintenance assistance after deployment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Skills</h2>
+        </div>
+
+        <div class="tech-grid" data-stagger>
+          <div class="tech-icon reveal" title="HTML5">
+            <div class="tech-icon-img">🌐</div>
+            <span>HTML5</span>
+          </div>
+          <div class="tech-icon reveal" title="CSS3">
+            <div class="tech-icon-img">🎨</div>
+            <span>CSS3</span>
+          </div>
+          <div class="tech-icon reveal" title="JavaScript">
+            <div class="tech-icon-img">⚡</div>
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-icon reveal" title="Bootstrap">
+            <div class="tech-icon-img">🅱️</div>
+            <span>Bootstrap</span>
+          </div>
+          <div class="tech-icon reveal" title="React">
+            <div class="tech-icon-img">⚛️</div>
+            <span>React</span>
+          </div>
+          <div class="tech-icon reveal" title="Laravel">
+            <div class="tech-icon-img">🔥</div>
+            <span>Laravel</span>
+          </div>
+          <div class="tech-icon reveal" title="Python">
+            <div class="tech-icon-img">🐍</div>
+            <span>Python</span>
+          </div>
+          <div class="tech-icon reveal" title="MongoDB">
+            <div class="tech-icon-img">🍃</div>
+            <span>MongoDB</span>
+          </div>
+          <div class="tech-icon reveal" title="MySQL">
+            <div class="tech-icon-img">🐬</div>
+            <span>MySQL</span>
+          </div>
+          <div class="tech-icon reveal" title="Git">
+            <div class="tech-icon-img">📁</div>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Contact</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal-left">
+            <h3>Get In Touch</h3>
+            <p style="margin-bottom: var(--space-xl);">Let's discuss how we can build something unique, highly
+              performant, and premium for your business.</p>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📧</div>
+              <div>
+                <h4>Email Me</h4>
+                <p><a href="mailto:bhosaleprathamesh96@gmail.com">bhosaleprathamesh96@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📞</div>
+              <div>
+                <h4>Call Me</h4>
+                <p><a href="tel:+918431549016">8431549016</a></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-form-card reveal-right">
+            <form id="contact-form" name="contact" method="POST" data-netlify="true" autocomplete="on">
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-input" placeholder="Your Name" required
+                  autocomplete="name">
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" class="form-input" placeholder="Your Email" required
+                  autocomplete="email">
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" id="subject" class="form-input" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" class="form-input" placeholder="Your Message" required></textarea>
+              </div>
+
+              <div class="contact-form-buttons">
+                <button type="submit" class="btn btn-primary magnetic">Send Message</button>
+                <a href="https://calendly.com" target="_blank" class="btn btn-secondary magnetic">Book a Meeting</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Prathamesh Bhosale. All rights reserved. Designed with precision.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Prathamesh-2812" target="_blank" class="footer-social-link" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/prathamesh-bhosale-5026a82b1" target="_blank" class="footer-social-link" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">↑</button>
+
+  <!-- JavaScript Scripts -->
+  <script src="js/theme.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
