@@ -311,7 +311,8 @@
   box-shadow: var(--shadow-glow-primary);
 }
 
-.service-card h4 {
+.service-card h4,
+.service-card h3 {
   margin-bottom: var(--space-sm);
   font-weight: var(--fw-semibold);
 }
@@ -821,5 +822,6 @@ textarea.form-input {
   transform: scale(1.1);
 }
 
-.why-card h4 { font-size: var(--fs-body); margin-bottom: 0.35rem; }
+.why-card h4,
+.why-card h3 { font-size: var(--fs-body); margin-bottom: 0.35rem; }
 .why-card p { font-size: var(--fs-xs); color: var(--text-muted); }

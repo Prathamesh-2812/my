@@ -1,0 +1,17 @@
+{
+  "name": "Prathamesh Bhosale — Full-Stack & Freelance Web Developer",
+  "short_name": "Prathamesh Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "description": "Portfolio of Prathamesh Bhosale, Full-Stack & Freelance Web Developer specializing in custom web applications, React, Next.js, and high-performance websites."
+}

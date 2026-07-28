@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://prathamesh2819.netlify.app/
+
+# Sitemap
+Sitemap: https://prathamesh2819.netlify.app/sitemap.xml
